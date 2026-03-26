@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Latihan 1 - HTML5 </title>
+    </head>
+    <body>
+        <header>
+            <h1>Selamat datang</h1>
+            <p>Belajar tematik HTML5</p>
+        </header>
+        <nav>
+            <a href="tugas1S2.html">tentang saya</a>  |
+            <a href="#kursus">kursus</a>    |
+            <a href="#kontak">kontak</a>    |
+            <a href="#daftar">daftar</a>    |
+        </nav>
+        <section id="tentang">
+            <h2>Tentang Halaman Ini</h2>
+            <p>ini merupakan section untuk tentang</p>
+        </section>
+        <section id="kursus">
+            <h2>Daftar Kursus</h2>
+            <table border="1">
+                <tr>
+                    <th>No</th>
+                    <th>Nama Kursus</th>
+                    <th>Durasi</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Dasar HTML & CSS</td>
+                    <td>4 Minggu</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>JavaScript Fundamental</td>
+                    <td>6 Minggu</td>
+                </tr>
+            </table>
+        </section>
+        <section id="kontak">
+            <h2>Hubungi Kami</h2>
+            <p>
+                <label>Nama:</label>
+                <input type="text" name="Nama" placeholder="Nama">
+            </p>
+            <p>
+                <label>Email:</label>
+                <input type="email" name="Email" placeholder="Email">
+            </p>
+            <p>
+                <label>Pesan:</label><br>
+                <textarea rows="5"></textarea>
+                
+            </p>
+            <p>
+                <input type="submit" name="Submit">
+            </p>
+        </section>
+        <section id="daftar">
+        <h2>Daftar Kursus</h2>
+        <form>
+            <label>Nama : </label>
+            <input type="text" name="Nama" placeholder="Nama">
+            <br><br>
+            <label>Email    :</label>
+            <input type="email" name="Email" placeholder="Email">
+            <br><br>
+            <label>Nomor HP :</label>
+            <input type="text" name="Nomor" placeholder="Nomor">
+            <br><br>
+            <label>Alamat   :</label>
+            <input type="text" name="Alamat" placeholder="Alamat">
+            <br><br>
+            <label>Tanggal Lahir    :</label>
+            <input type="date">
+            <br><br>    
+            <label>Foto Ijazah  :</label>
+            <input type="file">
+            <br><br>
+            <label>Pendidikan Akhir :</label>
+            <select>
+                <option value="SMP">SMP</option>
+                <option value="SMP">SMA</option>
+                <option value="SMP">Kuliah</option>
+            </select>
+            <br><br>
+            <label>Kursus yang dipilih :</label><br>
+            <input type="radio" value="HTML">
+            <label for="HTML">Dasar HTML & CSS</label><br>
+            <input type="radio" value="java">
+            <label for="java">JavaScript Fundamental</label>
+            <br><br>
+            <label>Alasan Ingin Bergabung :</label><br>
+            <textarea rows="5"></textarea>
+            <br>
+            <input type="submit">
+        </form>
+        <footer>>&copy; 2026 oleh Yoas</p>
+        </footer>
+    </body>
+</html>
